@@ -1,0 +1,104 @@
+# ==============================
+# Python & LangGraph Chatbot Project
+# ==============================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+*.manifest
+*.spec
+
+# ---- Virtual Environments ----
+venv/
+env/
+.venv/
+venv_langgraph_chatbot/
+.venv_langgraph_chatbot/
+ENV/
+env.bak/
+pip-wheel-metadata/
+pip-log.txt
+
+# ---- Build & Packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+MANIFEST
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
+Thumbs.db
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# ---- Environment & Config ----
+.env
+.env.*
+*.ini
+*.cfg
+*.conf
+*.toml
+
+# ---- LangChain / LangGraph Artifacts ----
+logs/
+checkpoints/
+cache/
+langchain.db
+chromadb/
+chroma/
+vectorstore/
+.llm_cache/
+*.sqlite
+*.jsonl
+*.parquet
+
+# ---- Notebooks & Temp ----
+*.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+tmp/
+temp/
+*.tmp
+*.log
+
+# ---- OS Specific ----
+.DS_Store
+ehthumbs.db
+Icon?
+desktop.ini
+
+# ---- Test / Coverage ----
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+htmlcov/
+
+# ---- Streamlit App Cache ----
+.streamlit/
+__streamlit_cache__/
+
+# ---- Docker / Compose ----
+*.pid
+*.pid.lock
+docker-compose.override.yml
+
+# ---- Misc ----
+*.bak
+*.swp
+*.swo
+*.orig
